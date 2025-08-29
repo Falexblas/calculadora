@@ -65,3 +65,16 @@ body {
   .zero {
     grid-column: span 2;
   }
+
+  body.dark {
+    background-color: #1a1a1a;
+  }
+  
+  .calculator.dark {
+    background: #222;
+  }
+  
+  button.dark {
+    background: #555;
+    color: #ddd;
+  }

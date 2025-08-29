@@ -19,3 +19,9 @@ function appendValue(value) {
       display.value = "Error";
     }
   }
+
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    document.body.classList.toggle("dark");
+    document.querySelector(".calculator").classList.toggle("dark");
+    document.querySelectorAll("button").forEach(btn => btn.classList.toggle("dark"));
+  });
